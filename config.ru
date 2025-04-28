@@ -1,9 +1,7 @@
-#declaring a rack application
 app = Proc.new do |env|
 
-  #response = [status_code, headers, body]
-  [200, {'content-type' => 'text/xml'}, ["Hello From my rack application"]]
+  [200, { "content-type" => "text/html" }, ["Hello from my Rack App!"]]
 end
 
 
-app.run
+run app
