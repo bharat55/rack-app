@@ -66,7 +66,7 @@ Before running this application, make sure you have the following installed:
 
 ## Clone the Repository
 
-
+git@github.com:bharat55/rack-app.git
 
 ---
 
